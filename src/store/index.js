@@ -58,7 +58,7 @@ export default new Vuex.Store({
         next: 'mobile'
       },
       mobile: {
-        path: require('@/assets/neumann.png'),
+        path: require('@/assets/mobile.png'),
         states:null,
         overlay: true,
         disabled: false,
