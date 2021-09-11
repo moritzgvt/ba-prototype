@@ -1,4 +1,6 @@
-# prototype
+# Bachelors prototype
+
+Prototype for evaluating the created user experience concept.
 
 ## Project setup
 ```
