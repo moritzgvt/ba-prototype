@@ -2,11 +2,13 @@
   <main>
     <div class="settings">
         <span class="md-body-2 settings__back" @click="handleClick"><span class="material-icons md-light">chevron_left</span> Zurück</span>
-        <h1 class="md-title">Standard Cookie-Einstellungen</h1>
+        <h1 class="md-title">Globale Cookie-Einstellungen</h1>
       <md-divider class="divider"/>
       <template v-for="(category, index) in categories">
         <VerboseCardSwitch  :key="index" :data="category" :index="index"/>
       </template>
+      <md-divider class="divider"/>
+      <p class="md-body-2">Detailliertere Einstellungen sind kein Teil des Click Dummys.</p>
     </div>
   </main>
 </template>

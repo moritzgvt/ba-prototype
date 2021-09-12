@@ -19,7 +19,7 @@
     </div>
     <div v-if="open" class="cardswitch__collapsable">
       <p class="md-body-1" v-html="data.content"/>
-      <p v-if="verbose" class="md-body-1">Weitere Einstellungsmöglichkeiten findest du in den <a>Globalen Cookie-Einstellungen</a>.</p>
+      <p v-if="verbose" class="md-body-1">Weitere Einstellungsmöglichkeiten findest du in den <a @click="handleClick('/settings')">Globalen Cookie-Einstellungen</a>.</p>
       <p class="md-caption tagheadline">Betroffene Daten:</p>
       <md-divider/>
       <div class="tagcontainer">
@@ -64,6 +64,9 @@ export default {
     })
   },
   methods: {
+    handleClick: function(target) {
+      this.$router.push(target);
+    },
     ...mapMutations({
       toggleSelection: 'toggleSelection'
     })
