@@ -106,7 +106,7 @@ export default {
     }
 
     &__severity {
-      width: 140px;
+      width: 150px;
       padding-left: 20px;
       flex-shrink: 0;
 

@@ -7,23 +7,23 @@ export default new Vuex.Store({
   state: {
     severity: [
       {
-        text: 'Keine Gefahr',
+        text: 'Kein Risiko',
         class: 'danger-0'
       },
       {
-        text: 'Geringe Gefahr',
+        text: 'Geringes Risiko',
         class: 'danger-1'
       },
       {
-        text: 'Gefahr',
+        text: 'Mittleres Risiko',
         class: 'danger-2'
       },
       {
-        text: 'Hohe Gefahr',
+        text: 'Hohes Risiko',
         class: 'danger-3'
       },
       {
-        text: 'Höchste Gefahr',
+        text: 'Höchstes Risiko',
         class: 'danger-4'
       }
     ]
