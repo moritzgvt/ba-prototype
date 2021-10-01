@@ -22,17 +22,3 @@ npm i -g serve
 // Use serve to propagate this folder to your localhost
 serve -s dist 
 ```
-
-## Einrichten der Entwicklungsumgebung
-
-Nutzen Sie bitte die Nachfolgende Anleitung, um die Applikation im Entwicklungsmodus auszuführen.
-
-```sh
-npm install
-```
-
-### Compiles and hot-reloads for development
-
-```sh
-npm run serve
-```
